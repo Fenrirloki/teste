@@ -4,10 +4,7 @@ using System.Collections.Generic;
 
 class Aluno
 {
-    public string Nome { get; set; }
-    public int Idade { get; set; }
-    public string Cpf { get; set; }
-    public string RA {get; set;}
+   
 
     // Construtor da classe
     public Aluno(string nome, int idade, string cpf)
