@@ -7,6 +7,7 @@ class Aluno
     public string Nome { get; set; }
     public int Idade { get; set; }
     public string Cpf { get; set; }
+    public string RA {get; set;}
 
     // Construtor da classe
     public Aluno(string nome, int idade, string cpf)
@@ -19,7 +20,7 @@ class Aluno
     // Método para exibir as informações de um aluno
     public override string ToString()
     {
-        return $"Nome: {Nome}, Idade: {Idade}, CPF: {Cpf}";
+        return $"Nome: {Nome}, Idade: {Idade}, CPF: {Cpf}, RA {RA}";
     }
 }
 
